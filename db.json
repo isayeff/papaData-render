@@ -1,51 +1,51 @@
 {
   "users": [
-        {
-            "id": 1,
-            "firstName": "Admin",
-            "lastName": "User",
-            "email": "admin@example.com",
-            "phone": "+994501234567",
-            "password": "Admin123!",
-            "role": "super_admin",
-            "createdAt": "2025-01-01T00:00:00.000Z",
-            "isActive": true,
-            "lastLogin": null
-        }
-    ],
-    "sessions": [],
-    "roles": {
-        "user": {
-            "name": "İstifadəçi",
-            "permissions": [
-                "profile_view",
-                "profile_edit"
-            ]
-        },
-        "admin": {
-            "name": "Administrator",
-            "permissions": [
-                "profile_view",
-                "profile_edit",
-                "users_view",
-                "users_edit",
-                "reports_view"
-            ]
-        },
-        "super_admin": {
-            "name": "Super Administrator",
-            "permissions": [
-                "profile_view",
-                "profile_edit",
-                "users_view",
-                "users_edit",
-                "users_delete",
-                "reports_view",
-                "system_settings",
-                "role_management"
-            ]
-        }
+    {
+      "id": 1,
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@example.com",
+      "phone": "+994501234567",
+      "password": "Admin123!",
+      "role": "super_admin",
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "isActive": true,
+      "lastLogin": null
     }
+  ],
+  "sessions": [],
+  "roles": {
+    "user": {
+      "name": "İstifadəçi",
+      "permissions": [
+        "profile_view",
+        "profile_edit"
+      ]
+    },
+    "admin": {
+      "name": "Administrator",
+      "permissions": [
+        "profile_view",
+        "profile_edit",
+        "users_view",
+        "users_edit",
+        "reports_view"
+      ]
+    },
+    "super_admin": {
+      "name": "Super Administrator",
+      "permissions": [
+        "profile_view",
+        "profile_edit",
+        "users_view",
+        "users_edit",
+        "users_delete",
+        "reports_view",
+        "system_settings",
+        "role_management"
+      ]
+    }
+  },
   "papadias": [
     {
       "title": "Cheddar Meksika Papadias",
